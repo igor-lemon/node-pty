@@ -32,28 +32,19 @@
     "type": "git",
     "url": "git://github.com/igor-lemon/pty.js.git"
   },
-  "bundledDependencies": [
-    "node-pre-gyp"
-  ],
-  "binary": {
-    "module_name": "node-pty",
-    "module_path": "./build/{module_name}/v{version}/{configuration}/{node_abi}-{platform}-{arch}/",
-    "remote_path": "./{module_name}/v{version}/{configuration}/",
-    "package_name": "{node_abi}-{platform}-{arch}.tar.gz",
-    "host": "https://github.com/igor-lemon/node-pty/releases/download"
-  },
   "scripts": {
     "tsc": "tsc",
     "tslint": "tslint src/**/*.ts",
-    "install": "node-pre-gyp install --fallback-to-build",
-    "rebuild-all": "npm rebuild && node-gyp rebuild",
+    "install": "prebuild-install || node-gyp rebuild",
+    "rebuild": "prebuild --compile",
+    "prebuild": "prebuild --all --strip --verbose",
     "postinstall": "node scripts/post-install.js",
-    "test": "cross-env NODE_ENV=test mocha -R spec test",
-    "prebuild": "prebuild -t 1.7.3 -r electron"
+    "test": "cross-env NODE_ENV=test mocha -R spec test"
   },
   "dependencies": {
     "nan": "2.5.0",
-    "node-pre-gyp": "^0.6.36"
+    "node-pre-gyp": "^0.6.36",
+    "prebuild-install": "^2.1.2"
   },
   "devDependencies": {
     "concurrently": "^3.4.0",
