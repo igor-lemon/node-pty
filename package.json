@@ -4,7 +4,7 @@
   "author": {
     "name": "Daniel Imms"
   },
-  "version": "0.7.0",
+  "version": "0.6.6",
   "license": "MIT",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -30,7 +30,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/igor-lemon/pty.js.git"
+    "url": "git://github.com/igor-lemon/node-pty.git"
   },
   "scripts": {
     "tsc": "tsc",

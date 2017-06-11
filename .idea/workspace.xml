@@ -2,8 +2,162 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4991befc-4a18-48a6-b9a0-22d00db4090c" name="Default" comment="up travis#16">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/common.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/config.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/http_parser/http_parser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/common.gypi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/android-ifaddrs.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/pthread-barrier.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/stdint-msvc2008.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/tree.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-aix.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-bsd.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-darwin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-errno.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-linux.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-os390.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-sunos.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-threadpool.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-unix.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-version.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv-win.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/include/uv.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/samples/socks5-proxy/defs.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/samples/socks5-proxy/s5.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/heap-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/queue.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/unix/atomic-ops.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/unix/internal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/unix/linux-syscalls.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/unix/os390-syscalls.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/unix/spinlock.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/uv-common.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/win/atomicops-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/win/handle-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/win/internal.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/win/req-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/win/stream-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/win/winapi.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/src/win/winsock.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/test/benchmark-list.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/test/runner-unix.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/test/runner-win.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/test/runner.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/test/task.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/uv/test/test-list.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/libplatform/libplatform-export.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/libplatform/libplatform.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/libplatform/v8-tracing.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-debug.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-experimental.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-inspector-protocol.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-inspector.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-platform.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-profiler.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-testing.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-version-string.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8-version.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/v8/include/v8config.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/blast/blast.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/infback9/infback9.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/infback9/inffix9.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/infback9/inflate9.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/infback9/inftree9.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/iostream/zfstream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/iostream2/zstream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/iostream3/zfstream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/minizip/crypt.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/minizip/ioapi.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/minizip/iowin32.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/minizip/mztools.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/minizip/unzip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/minizip/zip.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/contrib/puff/puff.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/crc32.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/deflate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/examples/gzlog.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/gzguts.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/inffast.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/inffixed.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/inflate.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/inftrees.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/trees.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/zconf.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/zlib.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/deps/zlib/zutil.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/installVersion" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/async-wrap-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/async-wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/base-object-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/base-object.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/base64.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/connect_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/connection_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/debug-agent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/env-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/env.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/handle_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/inspector_agent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/inspector_socket.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/inspector_socket_server.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/js_stream.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_buffer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_constants.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_counters.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_crypto.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_crypto_bio.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_crypto_clienthello-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_crypto_clienthello.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_crypto_groups.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_debug_options.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_dtrace.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_file.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_http_parser.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_i18n.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_internals.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_javascript.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_lttng.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_lttng_provider.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_lttng_tp.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_mutex.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_object_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_revert.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_root_certs.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_stat_watcher.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_url.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_version.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_watchdog.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_win32_etw_provider-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_win32_etw_provider.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_win32_perfctr_provider.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/node_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/pipe_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/req-wrap-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/req-wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/spawn_sync.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/stream_base-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/stream_base.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/stream_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/string_bytes.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/string_search.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/tcp_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/tls_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/tracing/agent.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/tracing/node_trace_buffer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/tracing/node_trace_writer.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/tracing/trace_event.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/tree.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/tty_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/udp_wrap.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/util-inl.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/util.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/iojs-1.7.3/src/v8abbr.h" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/prebuilds/node-pty-v0.6.6-electron-v54-darwin-x64.tar.gz" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appveyor.yml" afterPath="$PROJECT_DIR$/appveyor.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
@@ -23,8 +177,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -33,8 +187,8 @@
       <file leaf-file-name="appveyor.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appveyor.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+            <state relative-caret-position="170">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -43,8 +197,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -61,9 +215,9 @@
       <find>node-pre-gyp-github</find>
       <find>electron_version</find>
       <find>unixTerminal</find>
-      <find>$TRAVIS_OS_NAME</find>
-      <find>npm run tsc</find>
       <find>NODE_PRE_GYP_GITHUB_TOKEN</find>
+      <find>npm run tsc</find>
+      <find>$TRAVIS_OS_NAME</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -265,7 +419,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497183532974</updated>
-      <workItem from="1497183535003" duration="17619000" />
+      <workItem from="1497183535003" duration="18898000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1497184250483</created>
@@ -540,11 +694,25 @@
       <option name="project" value="LOCAL" />
       <updated>1497209371111</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="up travis#27">
+      <created>1497214012489</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1497214012489</updated>
+    </task>
+    <task id="LOCAL-00041" summary="up travis#28">
+      <created>1497214376094</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1497214376094</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17619000" />
+    <option name="totallyTimeSpent" value="18898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -583,12 +751,36 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="up travis#3" />
-    <MESSAGE value="up travis#4" />
     <MESSAGE value="up travis#5" />
     <MESSAGE value="up travis#6" />
     <MESSAGE value="up travis#8" />
@@ -612,7 +804,9 @@
     <MESSAGE value="up travis#16" />
     <MESSAGE value="up travis#25" />
     <MESSAGE value="up travis#26" />
-    <option name="LAST_COMMIT_MESSAGE" value="up travis#26" />
+    <MESSAGE value="up travis#27" />
+    <MESSAGE value="up travis#28" />
+    <option name="LAST_COMMIT_MESSAGE" value="up travis#28" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -653,24 +847,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appveyor.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="24" column="59" lean-forward="false" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="170">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>

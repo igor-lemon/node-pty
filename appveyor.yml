@@ -6,8 +6,6 @@ environment:
   NODE_PRE_GYP_GITHUB_TOKEN:
     secure: i4GoFcXzEsXOO09qFT/uQWRaofLZqy4GaMLXBubMlC9U9AH4+PXWeGwPNRrjt2mr
   matrix:
-    - nodejs_version: "7"
-    - nodejs_version: "8"
     - electron_version: "1.6.10"
 
 platform:
