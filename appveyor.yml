@@ -15,7 +15,9 @@ platform:
 install:
   - ps: Install-Product node $env:nodejs_version $env:platform
   - set PATH=%APPDATA%\npm;%APPVEYOR_BUILD_FOLDER%\node_modules\.bin;%PATH%
-  - npm i --ignore-scripts
+  - npm install
+  - npm run tslint
+  - npm run tsc
   - for /f %%i in ('node -v') do set exact_nodejs_version=%%i
   - prebuild -b %exact_nodejs_version% --strip
 
