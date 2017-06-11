@@ -25,7 +25,8 @@
     "terminal",
     "pseudoterminal",
     "forkpty",
-    "openpty"
+    "openpty",
+    "ssh"
   ],
   "repository": {
     "type": "git",
