@@ -2,6 +2,9 @@ version: "{build}"
 build: off
 skip_tags: true
 
+image:
+- Visual Studio 2015
+
 environment:
   NODE_PRE_GYP_GITHUB_TOKEN:
     secure: i4GoFcXzEsXOO09qFT/uQWRaofLZqy4GaMLXBubMlC9U9AH4+PXWeGwPNRrjt2mr
@@ -13,7 +16,6 @@ platform:
 
 install:
   - ps: Install-Product node $env:nodejs_version $env:platform
-  - set PATH=C:\Program Files (x86)\MSBuild\12.0\Bin;%PATH%
   - set PATH=%APPDATA%\npm;%APPVEYOR_BUILD_FOLDER%\node_modules\.bin;%PATH%
   - set path=%programfiles(x86)%\\Microsoft SDKs\TypeScript\2.2;%path%
   - npm install

@@ -6,13 +6,12 @@ env:
   global:
     secure: V3GhWqd8TjD4EQ769v8UMw12VMtGWOLCQ6qb4ZRKaryzaZlUJO760rDAl1ajPDLhF/UJQsnRiSvZW3nXGzUyAAv0vvRjOwT2urYNlYusIB41v1pUDuUymtuzGgbXI1LpxRwJbLiTare+wBZ+PZovaWwIR6mqNXDAIAHTioFeC9FxcJdvYpmQh0Cs5dTSU0CxFhKyswulE2HZqxdE7WWghvfukv6FC0m4q7pE3lgK1vra5BJ/D0i51ecCtPKQbIMLsXnGp/ho5MV6iQM+f9kykBVyORJHzjfDopEAihoiZgR37xFX3SjoAzVu0y3XGuNiHE7WDDrDkdFSzjCNiJs65s3EqR/PG/ccbn8QlpbZsVzBFy6/4OtMh9xQjdhwRYh62kiMtMc+B4zLrOc14KUu6+2zUV4+jrr8kaPIqgxTZcgqRJqOoRTSeBzflF41zbP8nxAft9XGD+sObPAOzqR8xihw/kNt1+w0aIsL+m9hYAe6P3Ci9D7NGT1mOQ6oRTp0sdkr86aubT1NlbMoiSt1SbGfHLUJ2WvyYZ/WwvnRFtgedE5ulBG1zodiItxPmM6bw+HDtjVwmPDYF2OiFV3d3npyeETVCfLPt1sJB5ePNYNdHeFkaiKCMnFplHzGZQM/0z7dN6HgFdcXIyJLiw8vUZKlbdwDYTCdx46EfF0+L/8=
 node_js:
-- '7'
 - '8'
 install:
 - npm install --build-from-source
 - npm run tsc
 - npm run tslint
-- prebuild --all -u $NODE_PRE_GYP_GITHUB_TOKEN -t 1.6.10 -r electron
+- prebuild --all -u "$NODE_PRE_GYP_GITHUB_TOKEN" -t 1.6.10 -r electron
 before_install:
 - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
   ; fi
