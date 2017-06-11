@@ -12,7 +12,8 @@ import { ArgvOrCommandLine } from './types';
 import { assign } from './utils';
 import * as binary from 'node-pre-gyp';
 
-const binding_path = binary.find(path.resolve(path.join('..', 'package.json')));
+const binding_path = binary.find(path.resolve(path.join(__dirname, '..', 'package.json')));
+console.log(path.resolve(path.join(__dirname, '..' , 'package.json')));
 const pty = require(binding_path);
 
 const DEFAULT_FILE = 'sh';

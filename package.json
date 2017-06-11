@@ -35,7 +35,7 @@
   "scripts": {
     "tsc": "tsc",
     "tslint": "tslint src/**/*.ts",
-    "install": "prebuild-install || node-gyp rebuild",
+    "install": "node-pre-gyp install --fallback-to-build",
     "rebuild": "prebuild --compile",
     "prebuild": "prebuild --all --strip --verbose",
     "postinstall": "node scripts/post-install.js",
@@ -51,7 +51,7 @@
   ],
   "binary": {
     "module_name": "node-pty",
-    "module_path": "./build/{configuration}/",
+    "module_path" : "./build/bin/{configuration}/{node_abi}-{platform}-{arch}/",
     "host": "https://github.com/igor-lemon/node-pty/releases/download/v0.6.6"
   },
   "devDependencies": {
