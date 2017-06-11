@@ -37,8 +37,8 @@
   ],
   "binary": {
     "module_name": "node-pty",
-    "module_path": "./build/{configuration}/",
-    "host": "github.com/igor-lemon/node-pty/releases/download"
+    "module_path": "./build/",
+    "host": "https://github.com/igor-lemon/node-pty/releases/download"
   },
   "scripts": {
     "tsc": "tsc",
