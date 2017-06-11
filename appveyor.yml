@@ -3,11 +3,19 @@ build: off
 skip_tags: true
 
 environment:
+  NODE_PRE_GYP_GITHUB_TOKEN:
+    secure: i4GoFcXzEsXOO09qFT/uQWRaofLZqy4GaMLXBubMlC9U9AH4+PXWeGwPNRrjt2mr
   matrix:
     - nodejs_version: "7"
     - nodejs_version: "8"
     - electron_version: "1.6.10"
-      nodejs_version: "7"
+    nodejs_version: "7"
+    - electron_version: "1.6.10"
+    nodejs_version: "8"
+    - electron_version: "1.7.3"
+    nodejs_version: "7"
+    - electron_version: "1.7.3"
+    nodejs_version: "8"
 
 platform:
   - x64
@@ -22,6 +30,8 @@ install:
   - npm run tslint
   - for /f %%i in ('node -v') do set exact_nodejs_version=%%i
   - prebuild -b %exact_nodejs_version% --strip
+  - prebuild --all -u %NODE_PRE_GYP_GITHUB_TOKEN%
 
 on_success:
   - for %%i in (prebuilds\*) do appveyor PushArtifact %%i
+  - prebuild --all -u
