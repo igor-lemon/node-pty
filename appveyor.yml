@@ -87,7 +87,7 @@ build_script:
 test_script:
 - ps: >
     if ($env:nodejs_version -ne "4") {
-      npm run lint
+      npm run tslint
     }
     true;
 # If we run npm test in powershell it'll have the wrong encoding
