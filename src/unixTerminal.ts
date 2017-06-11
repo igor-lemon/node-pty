@@ -10,8 +10,10 @@ import { Terminal } from './terminal';
 import { ProcessEnv, IPtyForkOptions, IPtyOpenOptions } from './interfaces';
 import { ArgvOrCommandLine } from './types';
 import { assign } from './utils';
+import * as binary from 'node-pre-gyp';
 
-const pty = require(path.join('..', 'build', 'Release', 'pty.node'));
+const binding_path = binary.find(path.resolve(path.join(__dirname, '..', 'package.json')));
+const pty = require(binding_path);
 
 const DEFAULT_FILE = 'sh';
 const DEFAULT_NAME = 'xterm';

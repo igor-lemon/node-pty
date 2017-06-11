@@ -46,6 +46,14 @@
     "node-pre-gyp": "^0.6.36",
     "prebuild-install": "^2.1.2"
   },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
+  "binary": {
+    "module_name": "node-pty",
+    "module_path": "./build/{configuration}/",
+    "host": "https://github.com/igor-lemon/node-pty/releases/download/v0.6.6"
+  },
   "devDependencies": {
     "concurrently": "^3.4.0",
     "@types/node": "^6.0.58",

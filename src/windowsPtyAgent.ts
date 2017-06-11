@@ -6,8 +6,10 @@
 import * as net from 'net';
 import * as path from 'path';
 import { ArgvOrCommandLine } from './types';
+import * as binary from 'node-pre-gyp';
 
-const pty = require(path.join('..', 'build', 'Release', 'pty.node'));
+const binding_path = binary.find(path.resolve(path.join(__dirname, '..', 'package.json')));
+const pty = require(binding_path);
 
 /**
  * Agent. Internal class.
