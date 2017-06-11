@@ -22,7 +22,7 @@ install:
   - prebuild -b %exact_nodejs_version% --strip
 
 test_script:
-  - npm test
+  - npm run test
 
 on_success:
   - for %%i in (prebuilds\*) do appveyor PushArtifact %%i
