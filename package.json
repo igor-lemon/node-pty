@@ -37,9 +37,7 @@
   ],
   "binary": {
     "module_name": "node-pty",
-    "module_path": "./build/{module_name}/v{version}/{configuration}/{node_abi}-{platform}-{arch}/",
-    "remote_path": "./{module_name}/v{version}/{configuration}/",
-    "package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+    "module_path": "./build/{configuration}/",
     "host": "github.com/igor-lemon/node-pty/releases/download"
   },
   "scripts": {
