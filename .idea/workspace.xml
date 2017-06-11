@@ -42,8 +42,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="38" column="4" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="38" selection-end-column="4" />
+            <state relative-caret-position="444">
+              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -139,20 +139,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node-pty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node-pty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prebuilds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,7 +254,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497183532974</updated>
-      <workItem from="1497183535003" duration="6400000" />
+      <workItem from="1497183535003" duration="7637000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1497184250483</created>
@@ -312,11 +298,39 @@
       <option name="project" value="LOCAL" />
       <updated>1497194563022</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="up travis">
+      <created>1497195119149</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1497195119149</updated>
+    </task>
+    <task id="LOCAL-00008" summary="up travis">
+      <created>1497195403758</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1497195403758</updated>
+    </task>
+    <task id="LOCAL-00009" summary="up travis#2">
+      <created>1497195668101</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1497195668101</updated>
+    </task>
+    <task id="LOCAL-00010" summary="up travis#3">
+      <created>1497196430110</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497196430110</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6400000" />
+    <option name="totallyTimeSpent" value="7637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -352,7 +366,9 @@
     <MESSAGE value="build" />
     <MESSAGE value="up appveyor" />
     <MESSAGE value="up travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="up travis" />
+    <MESSAGE value="up travis#2" />
+    <MESSAGE value="up travis#3" />
+    <option name="LAST_COMMIT_MESSAGE" value="up travis#3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -401,8 +417,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="444">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
           <folding />
         </state>
       </provider>
