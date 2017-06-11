@@ -32,6 +32,16 @@
     "type": "git",
     "url": "git://github.com/igor-lemon/pty.js.git"
   },
+  "bundledDependencies": [
+    "node-pre-gyp"
+  ],
+  "binary": {
+    "module_name": "node-pty",
+    "module_path": "./build/{module_name}/v{version}/{configuration}/{node_abi}-{platform}-{arch}/",
+    "remote_path": "./{module_name}/v{version}/{configuration}/",
+    "package_name": "{node_abi}-{platform}-{arch}.tar.gz",
+    "host": "https://github.com/igor-lemon/node-pty/releases/download"
+  },
   "scripts": {
     "tsc": "tsc",
     "tslint": "tslint src/**/*.ts",
