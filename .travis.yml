@@ -2,6 +2,9 @@ language: node_js
 os:
   - linux
   - osx
+env:
+  global:
+  - secure: "rZ5I8XAd55os33ZiLASrtyvCfaGaaCoLBRJePX49Q7cfqkUSrc4rUk71XqdLnvgphP2NPSgaaAUD66BQuIEPPty37LsJItQXTEVHI5qYjcYfi12wpAAdODxpvVyd22L8JC/b2sNBVV8UTK7a2jM8jcBKM7MjrCf+Ql6Nrw2w28+URAAcaVVxZSUCoaldLEREEMXIRhmptgMcW0W5E1zbk8VkhsrNg26ivqrq/Zusw96QkZMYe+VO+JXcNwEYGJirnZJ5S3EuBcRB+jrbp3+Bk9kPNrVR3w6jBbjIRD7Se+T+H1o4jfa3lkHaOlGNhr3mqDMtVFxFtKO11pZHbxthUMgTtUymjf7p8eS49gbzKiwS8up43w2t/45y0QAh2E040OrbDudmv7icpGfo95tdjslJJ6aqgMQw3j9InJ/sYQK64GhmahM3rGYlTSbvcuk/+3JODDmZJ7GEy27U/2w3KSiNaJpVEotHm1sx6zI8pIktOA4TLm+H4hWp8p2mi4QOBNuly1NG4NWAP/E6okCWIHBn7YJ6t3S2xqMeObq/fp5HpQOwmXT0OqFKoDWw2HUckFCpOpEpg+BeTaypfhjiwQvYRJPZOqcS9WTa4iVWcJ5xQ+vzUC4ol6wXBZYLMWExKtd7GCALCSA9LUG7HHCTcMMgd33yuOBxAUG5KEy7A6Q="
 node_js:
   - "7"
   - "8"
@@ -16,3 +19,5 @@ before_install:
 script:
   - npm test
   - npm run tslint
+  - node-pre-gyp package
+  - node-pre-gyp-github publish --release
