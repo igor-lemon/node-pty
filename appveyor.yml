@@ -4,14 +4,11 @@ environment:
     secure: 1701b1a6e96fb256b57fd72c648372858f9eebbd
 
   matrix:
-  - nodejs_version: "4"
-  - nodejs_version: "6"
   - nodejs_version: "7"
   - electron_version: "1.6.10"
     nodejs_version: "7"
 
 platform:
-- x86
 - x64
 
 install:
