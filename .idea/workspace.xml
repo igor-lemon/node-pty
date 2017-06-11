@@ -264,7 +264,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497183532974</updated>
-      <workItem from="1497183535003" duration="16688000" />
+      <workItem from="1497183535003" duration="16698000" />
     </task>
     <task id="LOCAL-00001" summary="build">
       <created>1497184250483</created>
@@ -504,11 +504,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497208913743</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="up travis#24">
+      <created>1497208990526</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1497208990526</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16688000" />
+    <option name="totallyTimeSpent" value="16698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -575,7 +582,8 @@
     <MESSAGE value="up travis#21" />
     <MESSAGE value="up travis#22" />
     <MESSAGE value="up travis#23" />
-    <option name="LAST_COMMIT_MESSAGE" value="up travis#23" />
+    <MESSAGE value="up travis#24" />
+    <option name="LAST_COMMIT_MESSAGE" value="up travis#24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

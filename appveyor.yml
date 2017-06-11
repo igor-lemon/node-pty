@@ -9,13 +9,11 @@ environment:
     - nodejs_version: "7"
     - nodejs_version: "8"
     - electron_version: "1.6.10"
-    nodejs_version: "7"
-    - electron_version: "1.6.10"
-    nodejs_version: "8"
+      - nodejs_version: "7"
+      - nodejs_version: "8"
     - electron_version: "1.7.3"
-    nodejs_version: "7"
-    - electron_version: "1.7.3"
-    nodejs_version: "8"
+      - nodejs_version: "7"
+      - nodejs_version: "8"
 
 platform:
   - x64
