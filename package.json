@@ -44,7 +44,7 @@
   "dependencies": {
     "nan": "2.5.0",
     "node-pre-gyp": "^0.6.36",
-    "prebuild-install": "^2.1.2",
+    "prebuild-install": "^2.1.2"
   },
   "devDependencies": {
     "concurrently": "^3.4.0",
