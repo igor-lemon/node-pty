@@ -40,7 +40,6 @@ before_install:
 script:
   - npm test
   - npm run tslint
-  # if publishing, do it
   - if [[ $PUBLISH_BINARY == true ]]; then node-pre-gyp package; fi;
   - if [[ $PUBLISH_BINARY == true ]]; then node-pre-gyp-github publish --release; fi;
   - node-pre-gyp clean
