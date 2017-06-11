@@ -4,9 +4,14 @@ environment:
     secure: 1701b1a6e96fb256b57fd72c648372858f9eebbd
 
   matrix:
+  - nodejs_version: "4"
+  - nodejs_version: "6"
   - nodejs_version: "7"
+  - electron_version: "1.6.10"
+    nodejs_version: "7"
 
 platform:
+- x86
 - x64
 
 install:
@@ -80,7 +85,7 @@ install:
 - ps: >
     $env:DISABLE_PORT_FEATURE = "open.unlock,baudrate.25000"
 build_script:
-- npm install --build-from-source --msvs_version=2015
+- npm install --build-from-source --msvs_version=2013
 
 test_script:
 - ps: >
