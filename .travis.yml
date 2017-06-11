@@ -12,7 +12,7 @@ install:
 - npm install --build-from-source
 - npm run tsc
 - npm run tslint
-- prebuild --all -u NODE_PRE_GYP_GITHUB_TOKEN -t 1.6.10 -r electron
+- prebuild --all -u $NODE_PRE_GYP_GITHUB_TOKEN -t 1.6.10 -r electron
 before_install:
 - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
   ; fi
